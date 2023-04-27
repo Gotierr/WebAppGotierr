@@ -1,11 +1,8 @@
 import { Box } from "@mui/material";
+import HomepageLayout from "../../components/HomepageLayout";
 
 function Home() {
-  return (
-    <Box>
-      <Box>salut c'est la homepage</Box>
-    </Box>
-  );
+  return <HomepageLayout />;
 }
 
 export default Home;
